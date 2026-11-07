@@ -1,0 +1,6 @@
+{
+  "name": "My Life Manager – Daily Routine",
+  "description": "Premium daily routine planner, activity tracker, schedule manager, and productivity analytics in Hindi and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

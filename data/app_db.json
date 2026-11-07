@@ -1,0 +1,291 @@
+{
+  "users": {
+    "usr_demo_101": {
+      "id": "usr_demo_101",
+      "name": "Arjun Sharma",
+      "email": "demo@lifemanager.app",
+      "passwordHash": "1efd18afcd008e222cc080b69e5ea44d8614729af76d0364203ef7731d019e46",
+      "createdAt": "2026-11-07T15:09:38.161Z"
+    }
+  },
+  "sessions": {
+    "tok_demo_4d814b60862f7e8588e0059e961e5062": "usr_demo_101"
+  },
+  "routines": {
+    "usr_demo_101": [
+      {
+        "id": "rt_1",
+        "userId": "usr_demo_101",
+        "title": "Morning Meditation & Pranayama",
+        "description": "Mindfulness breathing and gentle stretching to start the day calm and focused.",
+        "category": "health",
+        "startTime": "06:00",
+        "endTime": "06:30",
+        "durationMinutes": 30,
+        "priority": "high",
+        "recurringDays": "daily",
+        "subtasks": [
+          {
+            "id": "st_1",
+            "text": "10 min Anulom Vilom",
+            "completed": true
+          },
+          {
+            "id": "st_2",
+            "text": "10 min silent meditation",
+            "completed": true
+          },
+          {
+            "id": "st_3",
+            "text": "Hydrate with warm lemon water",
+            "completed": true
+          }
+        ],
+        "order": 1,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      },
+      {
+        "id": "rt_2",
+        "userId": "usr_demo_101",
+        "title": "Morning Workout & Core Training",
+        "description": "Cardio, calisthenics, and core strengthening.",
+        "category": "exercise",
+        "startTime": "06:35",
+        "endTime": "07:20",
+        "durationMinutes": 45,
+        "priority": "high",
+        "recurringDays": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "subtasks": [
+          {
+            "id": "st_4",
+            "text": "5 min dynamic warm up",
+            "completed": true
+          },
+          {
+            "id": "st_5",
+            "text": "3 sets pushups & squats",
+            "completed": false
+          },
+          {
+            "id": "st_6",
+            "text": "Cool-down stretches",
+            "completed": false
+          }
+        ],
+        "order": 2,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      },
+      {
+        "id": "rt_3",
+        "userId": "usr_demo_101",
+        "title": "Nutritious Breakfast & Planning",
+        "description": "Protein oats, nuts, fruit, and reviewing top 3 daily objectives.",
+        "category": "food",
+        "startTime": "07:30",
+        "endTime": "08:15",
+        "durationMinutes": 45,
+        "priority": "medium",
+        "recurringDays": "daily",
+        "subtasks": [
+          {
+            "id": "st_7",
+            "text": "Check daily schedule",
+            "completed": false
+          },
+          {
+            "id": "st_8",
+            "text": "Prepare balanced meal",
+            "completed": false
+          }
+        ],
+        "order": 3,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      },
+      {
+        "id": "rt_4",
+        "userId": "usr_demo_101",
+        "title": "Deep Work Block 1: Core Priority",
+        "description": "Zero interruptions, phone on focus mode. High-leverage project tasks.",
+        "category": "work",
+        "startTime": "09:00",
+        "endTime": "11:30",
+        "durationMinutes": 150,
+        "priority": "high",
+        "recurringDays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "subtasks": [
+          {
+            "id": "st_9",
+            "text": "Draft sprint deliverables",
+            "completed": false
+          },
+          {
+            "id": "st_10",
+            "text": "Code review & PR checks",
+            "completed": false
+          }
+        ],
+        "order": 4,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      },
+      {
+        "id": "rt_5",
+        "userId": "usr_demo_101",
+        "title": "Skill Development & Study",
+        "description": "Reading tech documentation, system design or new language practice.",
+        "category": "study",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "durationMinutes": 60,
+        "priority": "medium",
+        "recurringDays": "daily",
+        "subtasks": [
+          {
+            "id": "st_11",
+            "text": "Read 20 pages",
+            "completed": false
+          },
+          {
+            "id": "st_12",
+            "text": "Summarize key notes",
+            "completed": false
+          }
+        ],
+        "order": 5,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      },
+      {
+        "id": "rt_6",
+        "userId": "usr_demo_101",
+        "title": "Evening Walk & Digital Detox",
+        "description": "Fresh air in the park without digital screens.",
+        "category": "health",
+        "startTime": "18:30",
+        "endTime": "19:15",
+        "durationMinutes": 45,
+        "priority": "low",
+        "recurringDays": "daily",
+        "subtasks": [],
+        "order": 6,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      },
+      {
+        "id": "rt_7",
+        "userId": "usr_demo_101",
+        "title": "Relaxation & Gaming / Hobby",
+        "description": "Free downtime with friends or video game session.",
+        "category": "gaming",
+        "startTime": "20:30",
+        "endTime": "21:30",
+        "durationMinutes": 60,
+        "priority": "low",
+        "recurringDays": [
+          0,
+          5,
+          6
+        ],
+        "subtasks": [],
+        "order": 7,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      },
+      {
+        "id": "rt_8",
+        "userId": "usr_demo_101",
+        "title": "Night Reflection & Sleep Routine",
+        "description": "Journaling accomplishments, setting clothes for tomorrow, and 8 hours restful sleep.",
+        "category": "sleep",
+        "startTime": "22:30",
+        "endTime": "06:00",
+        "durationMinutes": 450,
+        "priority": "high",
+        "recurringDays": "daily",
+        "subtasks": [
+          {
+            "id": "st_13",
+            "text": "Review performance",
+            "completed": false
+          },
+          {
+            "id": "st_14",
+            "text": "Screen off 30m before bed",
+            "completed": false
+          }
+        ],
+        "order": 8,
+        "createdAt": "2026-11-07T15:09:38.162Z",
+        "updatedAt": "2026-11-07T15:09:38.162Z"
+      }
+    ]
+  },
+  "records": {},
+  "goals": {
+    "usr_demo_101": [
+      {
+        "id": "g_1",
+        "userId": "usr_demo_101",
+        "title": "Drink 3L Water",
+        "category": "health",
+        "target": 3000,
+        "unit": "ml",
+        "history": {}
+      },
+      {
+        "id": "g_2",
+        "userId": "usr_demo_101",
+        "title": "Daily Workout",
+        "category": "exercise",
+        "target": 45,
+        "unit": "mins",
+        "history": {}
+      },
+      {
+        "id": "g_3",
+        "userId": "usr_demo_101",
+        "title": "Read Book / Study",
+        "category": "study",
+        "target": 40,
+        "unit": "mins",
+        "history": {}
+      },
+      {
+        "id": "g_4",
+        "userId": "usr_demo_101",
+        "title": "Sleep 8 Hours",
+        "category": "sleep",
+        "target": 8,
+        "unit": "hours",
+        "history": {}
+      }
+    ]
+  },
+  "settings": {
+    "usr_demo_101": {
+      "language": "en",
+      "theme": "dark",
+      "notificationsEnabled": true,
+      "leadTimeMinutes": 10,
+      "soundEnabled": true,
+      "morningReminderTime": "06:30",
+      "eveningReviewTime": "21:30"
+    }
+  }
+}
